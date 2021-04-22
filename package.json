@@ -23,7 +23,7 @@
     "@opentelemetry/plugin-grpc-js": "^0.18.0",
     "@opentelemetry/plugin-http": "^0.18.0",
     "@opentelemetry/plugin-https": "^0.18.0",
-    "@opentelemetry/plugin-mysql": "^0.14.0",
+    "@opentelemetry/plugin-mysql": "^0.15.0",
     "@opentelemetry/tracing": "^0.18.2",
     "bunyan": "^1.8.15",
     "mysql": "^2.18.1"
