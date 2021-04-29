@@ -1,0 +1,59 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@opentelemetry/plugin-express"
+    versions:
+    - 0.12.1
+    - 0.13.0
+    - 0.13.1
+    - 0.14.0
+  - dependency-name: "@opentelemetry/plugin-dns"
+    versions:
+    - 0.12.1
+    - 0.13.0
+    - 0.13.1
+    - 0.14.0
+  - dependency-name: "@opentelemetry/plugin-mysql"
+    versions:
+    - 0.12.1
+    - 0.13.0
+    - 0.13.1
+    - 0.14.0
+  - dependency-name: "@opentelemetry/plugin-http"
+    versions:
+    - 0.15.0
+    - 0.16.0
+    - 0.17.0
+    - 0.18.0
+  - dependency-name: "@opentelemetry/node"
+    versions:
+    - 0.15.0
+    - 0.16.0
+    - 0.17.0
+    - 0.18.0
+  - dependency-name: "@opentelemetry/plugin-grpc-js"
+    versions:
+    - 0.15.0
+    - 0.16.0
+    - 0.17.0
+    - 0.18.0
+  - dependency-name: "@opentelemetry/plugin-grpc"
+    versions:
+    - 0.15.0
+    - 0.16.0
+    - 0.17.0
+    - 0.18.0
+  - dependency-name: "@opentelemetry/plugin-https"
+    versions:
+    - 0.15.0
+    - 0.16.0
+    - 0.17.0
+    - 0.18.0
+  - dependency-name: "@google-cloud/opentelemetry-cloud-trace-exporter"
+    versions:
+    - 0.7.0
